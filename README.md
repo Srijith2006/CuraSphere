@@ -103,4 +103,4 @@ Multi-Clinic Support: Scalability for hospital chains and multi-location practic
 This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
-Srijith S. Computer Science & Engineering Student | Amrita University Feel free to connect on GitHub and provide feedback!
+Srijith S | Computer Science & Engineering Student | Amrita University Feel free to connect on GitHub and provide feedback!
