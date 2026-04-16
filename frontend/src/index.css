@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --primary:    #0A6EBD;
+  --primary-dk: #085A9A;
+  --accent:     #00C4A7;
+  --bg:         #F4F7FC;
+  --card:       #FFFFFF;
+  --text:       #1A1F36;
+  --muted:      #6B7A99;
+  --border:     #E2E8F0;
+  --danger:     #E53E3E;
+  --success:    #38A169;
+  --warning:    #D97706;
+  --radius:     12px;
+  --shadow:     0 2px 12px rgba(10,110,189,0.08);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-primary:hover { background: var(--primary-dk); }
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border: 1.5px solid var(--primary);
+  padding: 9px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-outline:hover { background: var(--primary); color: #fff; }
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.badge-pending   { background:#FFF3CD; color:#856404; padding:3px 10px; border-radius:20px; font-size:12px; font-weight:600; }
+.badge-confirmed { background:#D1FAE5; color:#065F46; padding:3px 10px; border-radius:20px; font-size:12px; font-weight:600; }
+.badge-cancelled { background:#FEE2E2; color:#991B1B; padding:3px 10px; border-radius:20px; font-size:12px; font-weight:600; }
